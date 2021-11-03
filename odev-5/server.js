@@ -3,7 +3,7 @@ const port = 5000;
 
 const server = http.createServer((req, res) => {
   const url = req.url;
-  console.log("Selam");
+
   switch (url) {
     case "/":
         res.writeHead(200, {"Content-Type" : "text/html"});
